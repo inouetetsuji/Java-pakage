@@ -14,15 +14,17 @@ import fruits.Fruits;
 */
 public class Study {
 
-	public static void main(String[] args){
+  private static final String FRUITS_COUNT_20 = null;
 
-      Fruits.fruits=FruitsConstants.FRUITS_LEMON_04;
-	  Fruits.count=FruitsConstants.FRUITS_COUNT_20;
+public static void main(String[] args) {
+
+      Object FRUITS_LEMON_04;
 	/* ③ Fruits.javaのprintFruitsメソッドを呼び出しなさい。
        *     また、課題の画像と同じ表示になるように
        *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
-      */
-	Fruits.printFruits(Fruits.fruits, Fruits.count);
+       */
+       String fruits = FruitsConstants(FRUITS_LEMON_04);
+       int count=constants.FruitsConstants(FRUITS_COUNT_20);
   }
 
 }
